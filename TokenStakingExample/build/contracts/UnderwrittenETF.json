@@ -1,0 +1,126 @@
+{
+  "contractName": "UnderwrittenETF",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/tk/Programming/Projects/ProofSuite/TokenStakingExample/contracts/ETF.sol\":\"UnderwrittenETF\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/tk/Programming/Projects/ProofSuite/TokenStakingExample/contracts/ETF.sol\":{\"keccak256\":\"0xff1b408687394bd6643329cc901785c9aebf8f71f80c2d98da8af0b47fd3f8f3\",\"urls\":[\"bzz-raw://6d79be14d41598fb47f6c0c30f4cd79d6e2b5e4ec2be8634579a0b093ff885c4\",\"dweb:/ipfs/QmanCVtvdTnh4q5FNRUeZosDiQ4hMTa1CgbV6z21Bce3aK\"]},\"/Users/tk/Programming/Projects/ProofSuite/TokenStakingExample/contracts/IStaking.sol\":{\"keccak256\":\"0xc4d791247bb68021c1fb633a7d9d7c05f02d28f53eabe4dd563c40ccc6dba768\",\"urls\":[\"bzz-raw://d44cab1d9022067ecb5f5cde11d5bce792b341732dc4106e0a1273a168cbd78a\",\"dweb:/ipfs/QmT6jtNqvZCDGYs48B85AT4tzE4GJS8ryYxPTdHxiugjBc\"]},\"/Users/tk/Programming/Projects/ProofSuite/TokenStakingExample/contracts/MultiTimedTokenStaking.sol\":{\"keccak256\":\"0xd5e48c575b047d90495b600df3c703b3b938fbb2fa79b00ee1e1878e1515a104\",\"urls\":[\"bzz-raw://2fcad8dbbeb044020d2d9d7951353fda4e8225d2efe1c0fd862f02f90687ca0f\",\"dweb:/ipfs/QmeDLKvzyiwwfiZvx7LaPYnALG3pi52qMSMapeBpLUHtm3\"]},\"/Users/tk/Programming/Projects/ProofSuite/TokenStakingExample/contracts/math/SafeMath.sol\":{\"keccak256\":\"0xccf56e15ec8d2707f71a75ddcef0746124f76551a359e624e232c576f089dd82\",\"urls\":[\"bzz-raw://95aa4d09dd11819707a6fb91a21e52a69617a5d67a6a1a86240f67d617e58d64\",\"dweb:/ipfs/QmdocTydBCkNEKHHYQbznaAC2826EKbgiVjTHJnzDekKK4\"]},\"/Users/tk/Programming/Projects/ProofSuite/TokenStakingExample/contracts/token/IERC20.sol\":{\"keccak256\":\"0xb9693cf88293cfd558f999bbad203aa6341fe38e709d2be07144eadd7aecfd08\",\"urls\":[\"bzz-raw://fa3c292f65b466f1aa2125a724150fd26f4773121053f6ff91fc63e02020a699\",\"dweb:/ipfs/QmdzNT7K5XSeBSLQwXigrwZf1KGw2sZSQng1QH2LUbAF3U\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820f02c7683405ae05b502ef6c8780763ef5579864c7ca86a4f272cb2c1968cf9c564736f6c634300050c0032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820f02c7683405ae05b502ef6c8780763ef5579864c7ca86a4f272cb2c1968cf9c564736f6c634300050c0032",
+  "sourceMap": "66:30:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:30:0;;;;;;;",
+  "deployedSourceMap": "66:30:0:-;;;;;",
+  "source": "pragma solidity ^0.5.12;\n\nimport './MultiTimedTokenStaking.sol';\n\ncontract UnderwrittenETF {\n\n\n}\n",
+  "sourcePath": "/Users/tk/Programming/Projects/ProofSuite/TokenStakingExample/contracts/ETF.sol",
+  "ast": {
+    "absolutePath": "/Users/tk/Programming/Projects/ProofSuite/TokenStakingExample/contracts/ETF.sol",
+    "exportedSymbols": {
+      "UnderwrittenETF": [
+        3
+      ]
+    },
+    "id": 4,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".12"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "absolutePath": "/Users/tk/Programming/Projects/ProofSuite/TokenStakingExample/contracts/MultiTimedTokenStaking.sol",
+        "file": "./MultiTimedTokenStaking.sol",
+        "id": 2,
+        "nodeType": "ImportDirective",
+        "scope": 4,
+        "sourceUnit": 543,
+        "src": "26:38:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 3,
+        "linearizedBaseContracts": [
+          3
+        ],
+        "name": "UnderwrittenETF",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 4,
+        "src": "66:30:0"
+      }
+    ],
+    "src": "0:97:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/tk/Programming/Projects/ProofSuite/TokenStakingExample/contracts/ETF.sol",
+    "exportedSymbols": {
+      "UnderwrittenETF": [
+        3
+      ]
+    },
+    "id": 4,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".12"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "absolutePath": "/Users/tk/Programming/Projects/ProofSuite/TokenStakingExample/contracts/MultiTimedTokenStaking.sol",
+        "file": "./MultiTimedTokenStaking.sol",
+        "id": 2,
+        "nodeType": "ImportDirective",
+        "scope": 4,
+        "sourceUnit": 543,
+        "src": "26:38:0",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 3,
+        "linearizedBaseContracts": [
+          3
+        ],
+        "name": "UnderwrittenETF",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 4,
+        "src": "66:30:0"
+      }
+    ],
+    "src": "0:97:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.12+commit.7709ece9.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.20",
+  "updatedAt": "2020-01-10T08:43:36.577Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
